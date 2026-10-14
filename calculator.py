@@ -1,6 +1,7 @@
 import sys
-a = (sys.argv[1])
-b = (sys.argv[2])
-c = (sys.argv[3])
-print("Addition:",a+b)
-print("Subtrraction:",a-b)
+
+a = int(sys.argv[1])
+b = int(sys.argv[2])
+
+print("Addition:", a + b)
+print("Subtraction:", a - b)
